@@ -2,6 +2,7 @@
 #define primenumbers_H
 #include <vector>
 #include <iostream>
+#include <math.h>
 #include <exception>
 
 class primenumbers
