@@ -9,6 +9,6 @@ int main()
 	std::cin >> a;
 	std::cout << std::endl;
 	primelist = primenumbers::primegenerator(a);
-	primenumbers::primenumbers::tableprinter(primelist);
+	primenumbers::tableprinter(primelist);
 	return 0;
 }
