@@ -40,5 +40,20 @@ std::vector<int> primenumbers::primegenerator(int n)
 
 void primenumbers::tableprinter(const std::vector<int> &primes)
 {
-	
+	std::cout << "\t|";
+	for (int i=0;i<primes.size();i++)
+	{
+		std::cout << primes.at(i) << "\t|";
+	}
+	std::cout << std::endl;
+	for (int j=0;j<primes.size();j++)
+	{
+		std::cout << primes.at(j) << "\t|";
+		
+		for (int k=0;k<primes.size();k++)
+		{
+			std::cout << primes.at(j) * primes.at(k) << "\t|";
+		}
+		std::cout << std::endl;
+	}	
 }
