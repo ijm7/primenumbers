@@ -1,3 +1,4 @@
+# primenumbers  
 Program that generates n amount of primes
   
 ## How to run  
